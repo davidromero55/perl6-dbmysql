@@ -28,6 +28,8 @@ class DB::MySQL::Statement does DB::Statement
 
     method execute(**@args, Bool :$finish, Bool :$store = True) # $store not used leave for backwards compatibility
     {
+        $!stmt.check;
+
         die DB::MySQL::Error.new(message => 'Wrong number of params')
             unless @args.elems == $!param-count;
 
