@@ -251,6 +251,14 @@ Exceptions
 
 All database errors, including broken SQL queries, are thrown as exceptions.
 
+Author
+------
+Curt Tilmes <ctilmes@cpan.org>
+
+Maintainer
+---------
+David Romero <romdav@gmail.com>
+
 Acknowledgements
 ----------------
 

@@ -1,14 +1,9 @@
 {
     "name" : "DB::MySQL",
-
-    "version" : "0.7",
-
-    "source-url" : "https://github.com/CurtTilmes/perl6-dbmysql.git",
-
+    "version" : "0.8",
+    "source-url" : "https://github.com/davidromero55/perl6-dbmysql.git",
     "perl" : "6.*",
-
     "tags" : [ "DATABASE", "MYSQL" ],
-
     "provides" : {
         "DB::MySQL"             : "lib/DB/MySQL.pm6",
         "DB::MySQL::Connection" : "lib/DB/MySQL/Connection.pm6",
@@ -17,19 +12,14 @@
         "DB::MySQL::Native"     : "lib/DB/MySQL/Native.pm6",
         "DB::MySQL::Converter"  : "lib/DB/MySQL/Converter.pm6"
     },
-
     "depends" : [ "DB", "NativeLibs", "NativeCall", "JSON::Fast" ],
-
     "description" : "MySQL access for Perl6",
-
     "test-depends" : [ "Test", "Test::When", "Test::META" ],
-
     "license" : "BSD-2-Clause",
-
-    "authors" : [ "Curt Tilmes <ctilmes@cpan.org>" ],
-
+    "auth": "zef:davidromero55",
+    "authors" : [ "Curt Tilmes <ctilmes@cpan.org>", "David Romero <romdav@gmail.com>" ],
     "support" : {
-      "source" : "https://github.com/CurtTilmes/perl6-dbmysql.git",
-      "bugtracker" : "https://github.com/CurtTilmes/perl6-dbmysql/issues"
+      "source" : "https://github.com/davidromero55/perl6-dbmysql",
+      "bugtracker" : "https://github.com/davidromero55/perl6-dbmysql/issues"
     }
 }
